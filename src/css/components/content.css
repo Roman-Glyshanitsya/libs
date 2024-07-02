@@ -1,0 +1,17 @@
+.content {
+    padding: 100px 0;
+}
+
+.content__list {}
+
+.content__item {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content__image {}
+
+.content__text {}
+
+.content__link {}

@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Libs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <h1>be as water my friend</h1>
+    <section class="hero">
+      <video class="hero__video" src="./images/video.mp4"></video>
+      <div class="hero__text-content">
+        <h1 class="hero__title">Escape to Ultimate Relaxation.</h1>
+        <p class="hero__text">
+          Welcome to our serene SPA hotel, a sanctuary designed for ultimate
+          relaxation. Nestled in picturesque surroundings, our luxurious
+          amenities and personalized services ensure a rejuvenating experience
+          for every guest.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <ul class="content__list">
+        <li class="content__item">
+          <img
+            class="content__image"
+            src="./images/room.jpg"
+            alt="hotel room"
+            width="400"
+          />
+          <p class="content__text">Rooms</p>
+          <a href="#" class="content__link">read more</a>
+        </li>
+        <li class="content__item">
+          <img
+            class="content__image"
+            src="./images/pool.jpg"
+            alt="hotel room"
+            width="400"
+          />
+          <p class="content__text">Pool</p>
+          <a href="#" class="content__link">read more</a>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
